@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Twitter</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="application.css">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link href="./images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+
+  <div id="topbar">
+    <div class='navbar'>
+      <ul>
+        <li><a href='index.html'><span><i class="fa fa-home fa-lg"></i> Home</span></a></li>
+        <li><a href='index.html'><span><i class="fa fa-bell fa-lg"></i> Notifications</span></a></li>
+        <li><a href='index.html'><span><i class="fa fa-flag fa-lg"></i> Discover</span></a></li>
+        <li><a href='index.html'><span><i class="fa fa-user fa-lg"></i> Me</span></a></li>
+      </ul>
+    </div>
+    <div id="search">
+      <form class="search">
+       <input type="text" class="search-query" placeholder="Search" />  
+       <button type="submit" class="search-button">
+        <img src="./images/search.png" alt="submit" />
+      </button>
+    </form>
+  </div>
+  <div class='navbar right'>
+    <ul>
+      <li><a href='index.html'><span><i class="fa fa-envelope fa-lg"></i> </span></a></li>
+      <li><a href='index.html'><span><i class="fa fa-gear fa-lg"></i></span></a></li>
+      <li><span><button class="compose"><i class="fa fa-edit fa-lg"></i></button></span></li>
+    </ul>
+  </div>
+
+</div>
+<div class="dashboard">
+  <div class="mini-profile">
+    <div class="mini-profile-header">
+      <a href="/mdubov" >  
+        <img class="avatar size32" src="https://pbs.twimg.com/profile_images/276995476/green_0449_me__1__normal.jpg">
+        <b class="fullname">Mikhail Dubov</b>
+        <small id="username">      
+          @mdubov
+        </small>
+      </a>
+    </div>
+    <div class="profile-stats">
+      <table class="stats js-mini-profile-stats " data-user-id="14368428" summary="Profile stats">
+        <thead>
+          <tr>
+            <th>Tweets</th>
+            <th>Following</th>
+            <th>Followers</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a class="js-nav" href="/mdubov" data-element-term="tweet_stats" data-nav="profile" data-is-compact="false"><strong title="445" class="js-mini-profile-stat">445</strong></a></td>
+            <td><a class="js-nav" href="/following" data-element-term="following_stats" data-nav="following" data-is-compact="false"><strong title="160" class="js-mini-profile-stat">160</strong></a></td>
+            <td><a class="js-nav" href="/followers" data-element-term="follower_stats" data-nav="followers" data-is-compact="false">  <strong title="239" class="js-mini-profile-stat">239</strong>
+            </a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="new-tweet">
+     <form class="tweet-form" method="post">
+       <textarea class="tweet-content"></textarea>
+       <div class="tweet-buttons">
+        <a href='/'><i class="fa fa-camera fa-2x"></i></a>
+        <a href='/'><i class="fa fa-map-marker fa-2x"></i></a>
+      </div>
+      <div class="character-count">
+       140</div>
+       <button class='post-tweet'><i class="fa fa-edit fa-2x"> Tweet</i></button>
+     </div>
+   </div>
+   <div class="wtf">
+    <div class="wtf-header">
+      <h3>Who to follow</h3>
+      <ul>
+        <li>&#8226 </li>
+        <li>Refresh</li>
+        <li>&#8226 </li>
+        <li>View all</li>
+      </ul></div>
+    </div>
+    <div class="wtf-body">
+      <div class="wtf-each"></div>
+    </div>
+  </div>
+
+  <script src='https://code.jquery.com/jquery-2.1.0.min.js'></script>
+  <script src='mustache.js'></script>
+</body>
+</html>
