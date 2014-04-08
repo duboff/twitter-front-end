@@ -176,7 +176,7 @@
 </div>
 <div class="tweet-container">
   <div class="wtf tweets">
-  <div class="tweets-header"><h3>Tweets</h3></div>
+    <div class="tweets-header"><h3>Tweets</h3></div>
     <div class="wtf-each tweet">
       <a class="wtf-link" href="/">
         <img src="https://pbs.twimg.com/profile_images/276995476/green_0449_me__1__normal.jpg">
@@ -195,21 +195,11 @@
           </ul>
         </div>
       </div>
+    
     </div>
+    <div class="loading"><i class="fa fa-spinner fa-spin"> </i> Loading</div>
   </div>
   <script src='https://code.jquery.com/jquery-2.1.0.min.js'></script>
-  <script src='mustache.js'></script>
-  <script>
-    function addTweet() {
-      var html = $('<div>').append($('.tweet:last-child').clone()).remove().html();
-      $(html).appendTo($.find('.tweets')).slideDown();
-    }
-    $(document).ready(function(){
-     for (var i = 0; i < 10; i++) {
-       addTweet();
-     }
-   })
-  </script>
-  
+  <script src='./twitter-clone.js'></script>
 </body>
 </html>

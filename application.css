@@ -838,4 +838,11 @@ form.search:before {
   color: #DDD;
   text-decoration: underline;
 }
+.loading {
+  display: block;
+  display: none;
+  margin-left: 45%;
+  color: white;
+  padding-bottom: 5px;
+}
 
