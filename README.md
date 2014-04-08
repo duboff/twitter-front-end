@@ -5,4 +5,4 @@ Week 7 test @ Makers Academy
 
 The task of this test was to recreate Twitter's home page front-end.
 
-Working example: 
+Working example: http://jsfiddle.net/Mvf67/
