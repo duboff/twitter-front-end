@@ -5,9 +5,8 @@ body {
   background-repeat: repeat;
   background-repeat: no-repeat;
   background-color: #352726;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 
 #topbar {
   background: #ffffff;
@@ -51,7 +50,6 @@ body {
   text-decoration: none;
   display: block;
   padding: 15px 15px;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 14px;
   position: relative;
@@ -210,38 +208,15 @@ form.search:before {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background-image: url(./images/mini-profile-bg.jpg);
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
-  border-bottom-style: none;
-  border-bottom-width: 0px;
-  border-image-outset: 0px;
-  border-image-repeat: stretch;
-  border-image-slice: 100%;
-  border-image-source: none;
-  border-image-width: 1;
-  border-left-color: rgb(41, 47, 51);
-  border-left-style: none;
-  border-left-width: 0px;
-  border-right-color: rgb(41, 47, 51);
-  border-right-style: none;
-  border-right-width: 0px;
-  border-top-color: rgb(41, 47, 51);
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  border-top-style: none;
-  border-top-width: 0px;
-  height: 248px;
-
+  border: 0px non rgb(41, 47, 51);
+  border-radius: 6px;
   margin-bottom: 10px;
   padding-top: 10px;
 }
 
 .mini-profile-header {
-
-
   color: rgb(41, 47, 51);
   display: block;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 12px;
   text-decoration: none;
 
@@ -251,35 +226,12 @@ form.search:before {
 }
 
 .mini-profile-header img {
-  border-bottom-color: rgb(255, 255, 255);
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-image-outset: 0px;
-  border-image-repeat: stretch;
-  border-image-slice: 100%;
-  border-image-source: none;
-  border-image-width: 1;
-  border-left-color: rgb(255, 255, 255);
-  border-left-style: solid;
-  border-left-width: 3px;
-  border-right-color: rgb(255, 255, 255);
-  border-right-style: solid;
-  border-right-width: 3px;
-  border-top-color: rgb(255, 255, 255);
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  border-top-style: solid;
-  border-top-width: 3px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 4px;
   color: rgb(208, 43, 85);
-  cursor: auto;
-
   float: none;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 12px;
   height: 48px;
-
   line-height: 16px;
   top: 0px;
   width: 48px;
@@ -322,7 +274,6 @@ form.search:before {
   cursor: pointer;
   display: block;
   font-size: 12px;
-  height: 51px;
   line-height: 16px;
   z-index: 1;
   margin-top: 10px;
@@ -333,18 +284,12 @@ form.search:before {
   -webkit-border-horizontal-spacing: 0px;
   -webkit-border-vertical-spacing: 0px;
   background-color: rgb(255, 255, 255);
-  border-collapse: separate;
-  border-image-outset: 0px;
-  border-image-repeat: stretch;
-  border-image-slice: 100%;
-  border-image-source: none;
-  border-image-width: 1;
   border: 1px solid rgb(225, 232, 237);
   border-top-color: rgb(41, 47, 51);
   border-top-style: none;
   border-top-width: 0px;
   color: rgb(41, 47, 51);
-  cursor: pointer;
+  
   display: table;
   font-size: 12px;
   height: 50px;
@@ -364,7 +309,6 @@ form.search:before {
   color: rgb(41, 47, 51);
   cursor: pointer;
   display: table-header-group;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 12px;
   height: 23px;
   line-height: 16px;
@@ -376,7 +320,6 @@ form.search:before {
   color: rgb(136, 153, 166);
   cursor: pointer;
   display: table-cell;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: normal;
   height: 16px;
@@ -400,7 +343,6 @@ form.search:before {
  color: rgb(41, 47, 51);
  cursor: pointer;
  display: table-row-group;
- font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
  font-size: 12px;
  height: 27px;
  line-height: 16px;
@@ -413,7 +355,6 @@ form.search:before {
   color: rgb(41, 47, 51);
   cursor: pointer;
   display: table-cell;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 12px;
   height: 20px;
   line-height: 16px;
@@ -440,7 +381,7 @@ form.search:before {
   cursor: auto;
   display: block;
   float: left;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
   font-size: 10px;
   height: 20px;
   line-height: 16px;
@@ -455,7 +396,6 @@ form.search:before {
   color: rgb(208, 43, 85);
   cursor: auto;
   display: block;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 500;
   height: 20px;
@@ -472,7 +412,6 @@ form.search:before {
   border-top-right-radius: 0px;
   color: #292F33;
   display: block;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 12px;
   padding-bottom: 10px;
@@ -484,22 +423,23 @@ form.search:before {
 .tweet-content {
   -webkit-appearance: textarea;
   background-color: #FFF;
-  background-color: #FFF;
   border-radius: 3px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #D02B55;
+  border: 1px solid #D02B55;
   flex-direction: column;
   resize: none;
   right: auto;
   left: auto;
   width: 98%;
-  height: 100px;
+  height: 20px;
   max-height:100px;
   cursor: auto;
   padding: 2px;
   white-space: pre-wrap;
   word-wrap: break-word;
+  ::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #999;
+    vertical-align: middle;
+}
 }
 
 .tweet-buttons {
@@ -534,27 +474,20 @@ form.search:before {
 }
 .wtf {
   position: relative;
-  margin-top: 88px;
   display: block;
-  
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
   background-color: white; 
   border: 0px none #292F33;
   border-radius: 6px;
   color: #292F33;
   display: block;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 16px;
   margin-bottom: 10px;
   position: relative;
-
 }
 .wtf-header {
   color: #292F33;
   display: block;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   height: 22px;
   line-height: 16px;
@@ -563,12 +496,10 @@ form.search:before {
 .wtf h3 {
   color: #66757F;
   display: inline;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 200;
   height: auto;
   line-height: 22px;
-  text-rendering: optimizelegibility;
 }
 .wtf-header ul {
   display: inline-block;
@@ -582,7 +513,6 @@ form.search:before {
 .wtf-body {
   color: #999;
   display: inline-block;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 16px;
   padding-left: 15px;
@@ -591,7 +521,6 @@ form.search:before {
 
 .wtf-body a {
   text-decoration: none;
-
 }
 
 .account-deets {
@@ -599,7 +528,6 @@ form.search:before {
   color: #999;
   cursor: auto;
   display: block;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 12px;
   height: 17px;
   line-height: 16px;
@@ -613,7 +541,6 @@ form.search:before {
   margin-left: 60px;
   color: #8899A6;
   display: block;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 13px;
   height: 16px;
   line-height: 16px;
@@ -844,5 +771,8 @@ form.search:before {
   margin-left: 45%;
   color: white;
   padding-bottom: 5px;
+}
+.new-tweet-footer{
+  display: none;
 }
 
